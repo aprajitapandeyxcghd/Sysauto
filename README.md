@@ -19,8 +19,8 @@ This project provides a simple bash script to automate backups of important dire
 
 ### 1. Clone this repository
 
-git clone https://github.com/yourusername/automated-backup-script.git
-cd automated-backup-script
+git clone https://github.com/aprajitapandeyxcghd/Sysauto.git
+cd Sysauto
 
 2. Configure the script
 Open auto_backup.sh in a text editor and update the configuration variables at the top of the file:
