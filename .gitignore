@@ -1,0 +1,6 @@
+# Ignore all backup archives starting with "backup_"
+backup_*.tar.gz
+
+# Optionally ignore other temporary or log files if created
+*.log
+*.tmp
