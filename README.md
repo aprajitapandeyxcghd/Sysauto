@@ -24,7 +24,7 @@ git clone https://github.com/aprajitapandeyxcghd/Sysauto.git
 
 cd Sysauto
 
-2. Configure the script
+### 2. Configure the script
 Open auto_backup.sh in a text editor and update the configuration variables at the top of the file:
 # Directories or files to backup (space-separated)
 BACKUP_ITEMS="/etc /home/user/documents"
