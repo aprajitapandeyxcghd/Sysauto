@@ -19,6 +19,29 @@ This project provides a simple bash script to automate backups of important dire
 
 ### 1. Clone this repository
 
-```bash
 git clone https://github.com/yourusername/automated-backup-script.git
 cd automated-backup-script
+
+2. Configure the script
+Open auto_backup.sh in a text editor and update the configuration variables at the top of the file:
+# Directories or files to backup (space-separated)
+BACKUP_ITEMS="/etc /home/user/documents"
+
+# Local backup destination directory
+LOCAL_BACKUP_DIR="/backup"
+
+# Remote backup directory (leave empty if not used)
+REMOTE_BACKUP_DIR=""
+
+# Email notification recipient
+EMAIL_TO="youremail@example.com"
+
+# Number of backups to keep
+KEEP_BACKUPS=7
+
+3. Make the script executable
+chmod +x auto_backup.sh
+
+4. Run the backup script manually (test)
+./auto_backup.sh
+
