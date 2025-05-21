@@ -51,9 +51,9 @@ EMAIL_TO="youremail@example.com"
 # Number of backups to keep
 KEEP_BACKUPS=7
 
-3. Make the script executable
+### 3. Make the script executable
 chmod +x auto_backup.sh
 
-4. Run the backup script manually (test)
+### 4. Run the backup script manually (test)
 ./auto_backup.sh
 
