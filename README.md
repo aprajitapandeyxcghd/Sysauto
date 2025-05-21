@@ -13,9 +13,6 @@ Sysauto/
 
 ├── .gitignore           # Ignore backup archives like backup_*.tar.gz
 
-└── LICENSE              # (Optional) License file (e.g., MIT)
-
-
 ---
 
 ## Features
