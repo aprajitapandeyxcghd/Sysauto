@@ -2,7 +2,8 @@
 # Automated Backup Script
 
 This project provides a simple bash script to automate backups of important directories or files, compress them, and optionally send email notifications. It supports local and remote backups.
-automated-backup-script/
+
+Sysauto/-
 
 ├── auto_backup.sh       # Main backup bash script
 
