@@ -3,10 +3,15 @@
 
 This project provides a simple bash script to automate backups of important directories or files, compress them, and optionally send email notifications. It supports local and remote backups.
 automated-backup-script/
+
 ├── auto_backup.sh       # Main backup bash script
+
 ├── config.sh            # Configuration variables for paths, retention, email
+
 ├── README.md            # Project description, usage, config & cron setup
+
 ├── .gitignore           # Ignore backup archives like backup_*.tar.gz
+
 └── LICENSE              # (Optional) License file (e.g., MIT)
 
 
